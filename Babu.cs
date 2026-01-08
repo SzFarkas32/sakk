@@ -6,7 +6,7 @@ public class Babu
 
 
     //enumot használunk a megkülönböztetéshez
-    enum Tipus {
+    public enum Tipus {
 		paraszt,
 		huszar,
 		futo,
