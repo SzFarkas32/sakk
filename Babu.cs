@@ -6,7 +6,7 @@ public class Babu
 
 
     //enumot használunk a megkülönböztetéshez
-    enum Tipus {
+    public enum Tipus {
 		paraszt,
 		huszar,
 		futo,
@@ -15,7 +15,8 @@ public class Babu
         kiraly
     }
 	Tipus tipus;
-    public Babu(string color, Tipus tipus)
+	
+	public Babu(string color, Tipus tipus)	
 	{
 		this.color = color;
 		this.tipus = tipus;
